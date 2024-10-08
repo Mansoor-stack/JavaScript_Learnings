@@ -36,9 +36,9 @@
 
   console.log(reduced_array);
 
-  let mapped_array = array1.map((element) => { // map() method - learn from code with harry blog and programiz
+  let mapped_array = array1.map((element) => { 
     return element * element;
-  });
+  });// map() method - learn from code with harry blog and programiz
 
   console.log(mapped_array);
 }
