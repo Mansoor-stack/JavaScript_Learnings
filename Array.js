@@ -35,4 +35,10 @@
   }); // reduce() method - learn from code with harry blog and programiz
 
   console.log(reduced_array);
+
+  let mapped_array = array1.map((element) => { // map() method - learn from code with harry blog and programiz
+    return element * element;
+  });
+
+  console.log(mapped_array);
 }
