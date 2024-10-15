@@ -36,9 +36,20 @@
 
   console.log(reduced_array);
 
-  let mapped_array = array1.map((element) => { 
-    return element * element;
-  });// map() method - learn from code with harry blog and programiz
+  let mapped_array = array1.map((element) => 
+    element * element
+  );// map() method - learn from code with harry blog and programiz
 
   console.log(mapped_array);
+
+
+  let array2 = [12,13,14,16];
+
+ let chaining_method= array2.filter(element=>element%2==0).map(element=>element*element).reduce((sum,current)=>sum+current);
+
+ console.log(chaining_method);
+
+ let sorted_array2 = array2.sort();
+
+ console.log(sorted_array2);
 }
