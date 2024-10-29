@@ -9,10 +9,11 @@ class Choco {
   //console.log(firstname,lastname);
   name() {
     console.log(this.firstname, this.lastname);
-   // console.log(firstname, lastname);
+    // console.log(firstname, lastname);
   }
 }
 
+module.exports = Choco;
 let object1 = new Choco("Mansoor", "Ahmed");
 
 object1.name();
